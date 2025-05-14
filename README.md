@@ -18,5 +18,5 @@ yarn hardhat test
 To interact on-chain, you also need to provide hardhat with the private key to the account. This is done through environment variables as defined in `lib/hardhatUtils.ts`.
 
 ```shell
-yarn hardhat ignition deploy ignition/modules/GNET.m.ts --verify --network sepolia
+yarn hardhat ignition deploy ignition/modules/Gnet.m.ts --verify --network sepolia
 ```
